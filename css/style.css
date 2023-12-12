@@ -1,0 +1,1772 @@
+.wrapper{
+    overflow: hidden;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+
+.hoverr {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  /* Make the image to responsive */
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    height: 0;
+    left: 0;
+    right: 0;
+  }
+
+
+  
+  .iconsss {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .hoverr:hover .overlay {
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+  }
+
+.serviceblocks:hover {
+    background-color: blue;
+    color: white;
+}
+.serviceblocks:hover #hoverIconsservices{
+ color: white;
+}
+
+#hoverIconsProjects{
+    padding:2px;
+}
+
+.fa-brands.fa-facebook {
+    padding-right: 10px;
+}
+.fa-brands.fa-square-twitter {
+    padding-right: 10px;
+}
+.fa-brands.fa-google-plus-g {
+    padding-right: 10px;
+}
+section.about-us {
+    background-color: mediumblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about {
+    text-align: center;
+}
+.about h1 {
+    color: gold;
+}
+.about p {
+    color: white;
+}
+section.footer-one {
+    background-color: #2505ef;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+section.footer-two {
+    background-color: mediumblue;
+    color: white;
+    padding: 10px;
+}
+.mobile-logo {
+    color: orange;
+}
+.number-txt {
+    padding-left: 10px;
+}
+.navigation-txt {
+    padding-left: 10px;
+}
+.message-txt {
+    padding-left: 10px;
+}
+.clock-txt {
+    padding-left: 10px;
+}
+.make.d-flex {
+    line-height: 2;
+}
+.all-info {
+    line-height: 2;
+}
+.discountdiv {
+    text-align: center;
+    border: dashed 2px gold;
+    padding: 15px;
+}
+.offer-txt {
+    margin-top: 20px;
+}
+.adimger img {
+    width: 294px;
+}
+.imgdivreplace img {
+    width: 100%;
+    height: 100%;
+}
+
+div#v-pills-tab button {
+    border-color: rgb(235, 229, 229);
+    background-color: white;
+    border-width: 1px;
+    padding: 8px;
+    width: 295px;
+    align-items: center;
+    display: flex;
+    padding-left: 30px;
+    border: solid;
+}
+div#v-pills-tab {
+    padding-top: 70px;
+}
+.imgdivreplace {
+    padding-top: 70px;
+}
+.switchboard {
+    padding-top: 70px;
+}
+.plumbing {
+    padding-top: 70px;
+}
+.wallpaint {
+    padding-top: 70px;
+}
+.home-maintenance {
+    padding-top: 70px;
+}
+.installation {
+    padding-top: 70px;
+}
+.garden-repair {
+    padding-top: 70px;
+}
+.fa-lg {
+    font-size: 1.25em;
+    line-height: .05em;
+    vertical-align: -.075em;
+}
+.contact {
+    padding-top: 40px;
+}
+.all-info {
+    padding-top: 10px;
+}
+
+.switchboard img {
+    width: 100%;
+    height: 100%;
+}
+.wallpaint img {
+    width: 100%;
+    height: 100%;
+}
+.garden-repair img {
+    width: 100%;
+    height:100%;
+}
+.home-maintenance img {
+    width: 100%;
+    height:100%;
+}
+.installation img {
+    width: 100%;
+    height:100;
+}
+.plumbing img {
+    width: 100%;
+    height: 100%;
+}
+.galleryenginerepairtab {
+    padding-bottom: 85px;
+}
+.galleryimagestab img {
+    padding-left: 17px;
+}
+.galleryenginerepairtab h3 {
+    padding-left: 13px;
+}
+
+.copyright {
+    text-align: center;
+}
+.twelve-words-flex {
+    padding-top: 10px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .galleryimagestab img {
+        padding-left: 0px;
+    }
+    img.image1 {
+        margin-bottom: 15px;
+    }
+    img.image2 {
+        margin-bottom: 15px;
+    }
+    .galleryimagestab {
+        text-align: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    img.image1 {
+        margin-bottom: 15px;
+    }
+    img.image2 {
+        margin-bottom: 15px;
+    }
+    .galleryimagestab {
+        text-align: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    img.image1 {
+        margin-bottom: 15px;
+    }
+    img.image2 {
+        margin-bottom: 15px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    img.image1 {
+        margin-bottom: 15px;
+    }
+    img.image2 {
+        margin-bottom: 15px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) { }
+
+
+
+.wel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headertop{
+    background-color: whitesmoke;
+}
+i.fa-brands.fa-facebook-f {
+    padding-right: 10px;
+}
+i.fa-brands.fa-twitter {
+    padding-right: 10px;
+}
+i.fa-brands.fa-google-plus-g {
+    padding-right: 10px;
+}
+
+.navi ul li {
+    display: math;
+    margin-right: 10px;
+}
+.navi ul li a{
+    text-decoration: none;
+    color: grey;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;  
+}
+
+
+.bannerfeat {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
+    padding-left:  130px;
+}
+.banersection{
+    background-color: #000;
+    color: white;
+}
+.bannersection p{
+    margin-top: -6px;
+    margin-bottom: 24px;
+}
+
+.bannerimage img{
+    width:250px;
+    height:400px;
+}
+.bannercontent button{
+    padding: 6px;
+    color: white;
+    border: 1px solid white;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.usedgallery img {
+    width: 80%;
+    height: 300px;
+}
+
+.subinstallations p {
+    border: 1px solid;
+    width: 250px;
+    height: 36px;
+    text-align: center;
+   
+}
+.install {
+    display: flex;
+    padding-top: 50px;
+}
+.acrepair {
+    display: flex;
+}
+.newrepair img {
+    padding-bottom: 40px;
+    padding-right: 10px;
+    width: 80%;
+    height: 200px;
+}
+
+
+.bannercontent {
+    padding-top: 90px;
+    padding-left: 115px;
+}
+
+.years {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.year{
+    align-items: center;
+    background-color: whitesmoke;
+}
+.mobnum button {
+    color: white;
+    background-color: orange;
+    padding: 5px;
+    border: 1px solid whitesmoke;
+}
+
+.aboutcustomers {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
+   
+}
+
+.aboutimg {
+    position: relative;
+}
+
+.firstimage img {
+    width: 320px;
+}
+
+.secondimage img {
+    position: absolute;
+    top: 23px;
+    left: 23px;
+    width: 294px;
+    height: 282px;
+} 
+
+.teamplumb {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.card i.fa-brands.fa-facebook-f {
+    padding-right: 10px;
+    position: absolute;
+    top: 138px;
+    left: 37px;
+}
+
+.card i.fa-brands.fa-google-plus-g {
+    padding-right: 10px;
+    position: absolute;
+    top: 138px;
+    left: 68px;
+}
+
+
+
+.thecustom {
+    flex-basis: 50%;
+}
+
+
+.thecustom  {
+    display: flex;
+    padding-top: 10px;
+}
+.maincontent h4 {
+    margin: 12px 0;
+}
+.maincontent p {
+    margin-top: -12px;
+}
+
+.favourite {
+    margin-right: 10px;
+}
+
+
+
+.serviceblocks {
+    width: 240px;
+    height: 240px;
+    border: solid 1px;
+    text-align: center;
+    margin: auto;
+    padding-top: 33px;
+}
+
+.serviceblocks h3 {
+    padding-top: 20px;
+}
+
+.screw img {
+    width: 300px;
+}
+
+
+
+
+.serve{
+    display: flex;
+    justify-content: space-between;
+    color: white; 
+    /* padding: 50px 0px 30px 0px;
+    margin-inline:100px */
+    padding-top:  50px;
+    padding-bottom: 30px;
+}
+.serviceman{
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px 0px 30px 0px;
+}
+.servicesection{
+    background-color: #000;
+}
+.repair {
+    border: solid;
+    border-color: darkblue;
+    width: 221px;
+    padding: 30px;
+    height: 277px;
+}
+.servbutton button {
+    padding: 8px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+
+
+
+.ours h1{
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
+.projectcontent ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-inline: 100px;
+    padding-top: 20px;
+}
+.projectcontent ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.projectcontent li {
+    padding-right: 25px;
+}
+.pro button{
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin: 0px auto;
+    background-color: orange;
+    border: 1px solid white;
+    margin-bottom: 80px;
+    margin-top: 30px;
+    color: white;
+}
+
+
+
+
+
+.projectcontent {
+    display: flex;
+}
+
+.projectmain {
+    margin-top: 60px;
+}
+
+
+.serviceman{
+    text-align: center;
+    color: white;
+    padding: 55px 0px 50px 0px;
+}
+
+.servicesection{
+    background-color: #000;
+}  
+
+
+
+
+
+
+
+
+.repair {
+    border: solid;
+    border-color: darkblue;
+    width: 235px;
+    padding: 30px;
+    margin: 0px 0px 20px 0px;
+} 
+
+.repair h3 {
+    padding-top: 25px;
+}
+
+.textcontact h1{
+    color: gold;
+}
+
+
+.textcontact{
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 80px;
+
+}
+
+.errortext{
+    text-align: center;
+    padding-top: 65px;
+}
+
+.heresearch {
+    text-align: center;
+    padding-bottom: 35px;
+}
+.heresearch i.fa-solid.fa-magnifying-glass {
+    position: relative;
+    right: 26px;
+}
+
+.heresearch input[type="text"] {
+    background-color: whitesmoke;
+    border: 1px solid white;
+    padding-right: 23px;
+    
+}
+
+
+
+.ser.row {
+    row-gap: 30px;
+}
+
+
+.backbutton {
+    text-align: center;
+    padding-bottom: 44px;
+}
+
+.backbutton button {
+    background-color: orange;
+    color: white;
+    border: 1px solid;
+    
+}
+
+.errortext h1 {
+    font-size: 80px;
+    color: mediumblue;
+}
+
+
+
+
+
+.chimneylocation{
+    display: flex;
+    padding-top: 25px;
+
+}
+
+
+.locationform {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 45px 180px 51px 180px; */
+}
+
+.forms {
+    /* padding-left: 28px; */
+    padding-top: 25px;
+}
+
+
+.chimney {
+    padding-top: 10px;
+}
+
+
+.locating {
+    padding-left: 30px;
+}
+
+.locating p {
+    padding-left: 10px;
+}
+
+.destination {
+    padding-top: 25px;
+}
+
+
+.ussupport p {
+    font-size: 28px;
+}
+
+
+
+
+
+
+.callings {
+    display: flex;
+    padding-top: 40px;
+}
+
+
+.calling {
+    padding-left: 40px;
+ }
+
+
+ .calls {
+    padding-top: 10px;
+}
+
+
+.follow{
+    display: flex;
+    padding-top: 25px;
+}
+
+
+.socio {
+    padding-left: 30px;
+}
+
+
+.socio p {
+    padding-left: 15px;
+}
+
+
+.following {
+    padding-top: 10px;
+
+}
+
+.serviceblocks .fa-solid, .fas {
+    font-weight: 900;
+    color: mediumblue;
+}
+
+
+.projectcontent ul li a{
+    color:  grey;
+    display: flex;
+}
+input#exampleInputEmail1 {
+    border-radius: 1px;
+}
+
+
+
+input.form-control.id\=exampleInputPassword1 {
+    border-radius: 1px;
+}
+
+
+
+
+
+/* 
+.maincontent{
+    display: flex;
+    justify-content: space-between;
+} */
+.solvingsec {
+    background-color: #000;
+    color: #ffffff;
+}
+.solvingsec button {
+    padding: 5px;
+    border: 1px solid black;
+    color: white;
+   
+}
+.houseproblems {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 235px;
+    margin-right: 50px;
+}
+.homeproblems {
+    padding-top: 90px;
+}
+
+
+
+.personaldetails {
+    background-color: gainsboro;  
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-right: 0px;
+}
+
+.locationform {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    
+}
+ .mailform {
+    margin: 10px 0px;
+    display: flex;
+}
+
+.nameform {
+    display: flex;
+}
+.nameform input {
+    padding: 5px;
+    margin: 5px;
+}
+.mailform input {
+    padding: 5px;
+    margin: 5px;
+}  
+.informationform input{
+    padding: 10px 213px 100px 10px;
+}
+.forms button {
+    padding: 10px 30px;
+    margin-top: 15px;
+    background-color: orange;
+    color: white;
+    border: 1px solid gainsboro;
+}
+
+
+
+.foot{
+    background-color: #000;
+    color: #ffffff;
+
+}
+.footertop {
+   display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    padding-top: 40px;
+} 
+.servisehome {
+    display: flex;
+}
+
+/* .ofer {
+    padding-left: 51px;
+   
+} */
+
+.offer {
+   
+    padding-top: 69px;
+ 
+}
+.offersub {
+    border: dotted 1px;
+    height: 156px;
+    width: 290px;
+    text-align: center;
+    margin: auto;
+}
+.offersub p {
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+.sdfirst6 {
+    display: flex;
+    padding-top: 10px;
+}
+
+.sdsecond {
+    display: flex;
+    padding-top: 10px;
+}
+
+
+.sethird {
+    display: flex;
+    padding-top: 25px;
+}
+.generalservicecontent h3{
+    margin-left: 55px;
+}
+.footerbottom{
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+   
+}
+
+.collapse ul :hover{
+    color: blue !;
+}
+#navbarText ul li a{
+   transition: 0.8s all;
+ 
+}
+
+#navbarText ul li a:hover {
+    color: chartreuse;
+    box-shadow: 0 5px 10px rgba(55, 65, 555, 0.5);
+    border-radius: 14%;
+}
+
+button{
+    transition: 0.3s all;
+    &:hover{
+        padding: 9px;
+    }
+
+}
+
+.homecall {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.switchboard img{
+    width: 100%;
+    height: 100%;
+}
+
+
+section.forms {
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+
+
+
+
+
+
+.imagesmain{
+    display: flex;
+    justify-content: space-around;
+     padding: 25px 0px 25px 0px;
+    
+} 
+
+
+
+/* .offercontact h3 {
+    margin-left: 35px;
+} */
+.offercontact p {
+    margin: 1px 0px 0px 26px;
+}
+
+.fa-mobile:before {
+    content: "\f3ce";
+    margin-right: 12px;
+    color: orange;
+}
+
+i.fa-solid.fa-location-dot {
+    color: orange;
+    margin-right: 12px;
+    margin-top: 4px;
+}
+i.fa-solid.fa-envelope {
+    color: orange;
+    margin-right: 12px;
+    margin-top: 4px;
+}
+i.fa-solid.fa-clock {
+    color: orange;
+    margin-right: 12px;
+    margin-top: 4px;
+}
+.fa-chevron-right:before {
+    content: "\f054";
+    color: orange;
+    margin-left: 15px;
+    margin-right: 10px;
+   
+}
+
+
+.newform{
+    display: flex;
+    justify-content: center;
+}
+
+.newforms {
+    width: 350px;
+}
+
+section.contactmain {
+    background-color: mediumblue;
+}
+
+section.oopsmain {
+    background-color: blue;
+}
+
+.welcome p {
+    margin-top: 0;
+    margin-bottom: 0;
+   
+}
+
+.clientbutton button {
+    color: white;
+    background-color: orange;
+    padding: 6px;
+    border: 1px solid mediumblue;
+}
+
+
+.cardssub {
+    display: flex;
+    column-gap: 30px;
+    padding-bottom: 80px;
+    padding-top: 40px;
+    justify-content: space-evenly;
+}
+
+.designmain {
+    
+    background-color: mediumblue;
+    color: white;
+    padding: 10px;
+}
+
+.card {
+    border: 0px;
+}
+
+.clientdesign {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 75px;
+
+}
+
+.supportingus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+section.aboutsupport {
+    background-color: mediumblue;
+}
+
+
+
+.cardcubs {
+    
+    background-color: mediumblue;
+    color: white;
+    text-align: center;
+}
+
+.fontarrow {
+    position: relative;
+    bottom: 21px;
+    left: 14px;
+}
+
+.fa-caret-down:before {
+    content: "\f0d7";
+    color: mediumblue;
+}
+
+.commentimage img {
+    width: 65px;
+    border-radius: 60px;
+}
+
+.imagecomm {
+    display: flex;
+}
+
+.card-body {
+    padding-left: 12px;
+}
+
+.iconCrown {
+    display: inline-grid;
+    width: 27px;
+    height: 26px;
+    border-radius: 50px;
+    background-color: mediumblue;
+    padding-top: 5px;
+}
+.cardWidth{
+    width: 16rem;
+}
+
+.aboutpeople {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.twelveyears p {
+    color: white;
+}
+
+.twelveyears h1 {
+    color: gold;
+}
+
+section.aboutpeoples {
+    background-color: black;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.footerbottom p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.textcontact P {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+
+}
+
+.projectcontent {
+    /* display: flex; */
+    margin-left: 102px;
+    padding-top: 45px;
+}
+
+input.form-control.id\=exampleInputPassword1 {
+    border-radius: 1px;
+    height: 90px;
+}
+
+button.btn.btn-warning {
+    border-radius: 1px;
+}
+
+
+.fa-home-lg:before, .fa-house-chimney:before {
+    content: "\e3af";
+    color: royalblue;
+}
+
+.fa-mobile-android-alt:before, .fa-mobile-screen:before {
+    content: "\f3cf";
+    color: royalblue;
+}
+.repair img {
+    height: 50px;
+}
+
+
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+  }
+  
+  .hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    background-color: rgba(0,0,0,0.5);
+    -webkit-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+    transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+  }
+  
+  .hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+    transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+  }
+  
+  .hovereffect h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    background: rgba(0,0,0,0.6);
+    -webkit-transform: translatey(-100px);
+    -ms-transform: translatey(-100px);
+    transform: translatey(-100px);
+    -webkit-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+    transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+    padding: 10px;
+  }
+  
+  .hovereffect a.info {
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    margin: 50px 0 0;
+    padding: 7px 14px;
+  }
+  
+  .hovereffect a.info:hover {
+    box-shadow: 0 0 5px #fff;
+  }
+  
+  .hovereffect:hover img {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  
+  .hovereffect:hover .overlay {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  
+  .hovereffect:hover h2,.hovereffect:hover a.info {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -ms-transform: translatey(0);
+    -webkit-transform: translatey(0);
+    transform: translatey(0);
+  }
+  
+  .hovereffect:hover a.info {
+    -webkit-transition-delay: .2s;
+    transition-delay: .2s;
+  }
+
+  img.img-responsive {
+    width: 15rem;
+}
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+    input.form-control.id\=exampleInputPassword1 {
+        border-radius: 1px;
+        height: 90px;
+    }
+    
+    .welcome {
+    font-size: 12px;
+    }
+
+    .offer{
+        padding-bottom: 50px;
+    }
+
+    .offer {
+        padding-top: 71px;
+        padding-left: 17px;
+    }
+
+   
+
+    
+
+    .logoclass img {
+        width: 200px;
+    } 
+
+    button.btn.btn-warning {
+        border-radius: 1px;
+    }
+
+    .servisehome {
+        display: flex;
+        padding-top: 10px;
+        padding-left: 0px;
+        font-size: 13px;
+    }
+
+    .generalservicecontent h3 {
+        margin-left: 55px;
+        padding-top: 40px;
+    }
+
+    .imagesmain{
+        row-gap: 15px;
+        text-align: center;
+    }
+
+    img.logoclass {
+        width: 200px;
+    }
+    .picture img {
+        padding-top: 5px;
+    }
+
+    .projectcontent {
+        /* display: flex; */
+        margin-left: 102px;
+        padding-top: 15px;
+    }
+
+    .bannerfeat {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-left: 15px;
+        text-align: center;
+    }
+
+    .bannercontent {
+        padding-top: 50px;
+        padding-left: 0px;
+        padding-bottom: 40px;
+    }
+
+    .serve {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+    }
+
+    
+    .nameform input {
+        width: 133px;
+        font-size: 11px;
+    }
+    .mailform input {
+        width: 133px;
+        font-size: 11px;
+    }
+
+    .informationform input {
+        width: 280px;
+        height: 109px;
+        padding-bottom: 75px;
+    }
+
+    .houseproblems {
+    display: flex;
+    justify-content: space-between;
+     margin-left: 0px; 
+     margin-right: 0px; 
+}
+
+.problemimage {
+    padding-top: 50px;
+}
+
+
+
+.projectcontent ul {
+    list-style: none;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin-inline: 0px;
+}
+
+.projectcontent {
+    margin-left: 65px;
+    padding-top: 15px;
+}
+
+.serve {
+    row-gap: 25px;
+}
+
+.repair{
+    margin: auto;
+}
+
+.firstimage img {
+    width: 304px;
+}
+
+.secondimage img {
+    position: absolute;
+    top: 23px;
+    left: 22px;
+    width: 279px;
+    height: 267px;
+}
+
+.footertop {
+     padding-bottom: 0px; 
+}
+    
+
+.aboutcontent {
+    padding-top: 35px;
+}
+
+.aboutimg {
+    position: relative;
+   
+}
+
+.serviceblocks {
+    width: 200px ;
+    height: 200px ;
+} 
+
+.supportingus{
+    text-align: center;
+}
+
+
+.ussupport {
+    color: white;
+    padding-bottom: 20px;
+}
+.offersub {
+       
+    margin: 0;
+}
+
+.cardWidth {
+    width: 18rem;
+}
+
+
+
+
+   
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px){
+
+    .bannercontent {
+        padding-top: 50px;
+        padding-left: 0px;
+        padding-bottom: 40px;
+    }
+
+    .houseproblems {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0px; 
+        margin-right: 0px; 
+    }
+
+    section.sectionserv {
+        padding-bottom: 65px;
+        padding-top: 65px;
+    }
+    .offersub {
+       
+        margin: 0;
+    }
+
+    .cardWidth {
+        width: 15rem;
+    }
+ 
+ 
+    
+
+   
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .bannercontent {
+        padding-top: 90px;
+        padding-left: 115px;
+        padding-bottom: 40px;
+    }
+
+    .bannerfeat {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 23px;
+        padding-left: 0px; 
+    }
+
+    .mobnum button {
+        width: 130px;
+        color: white;
+        background-color: orange;
+        padding: 4px;
+        border: 1px solid whitesmoke;
+    }
+
+    .projectcontent {
+        margin-left: 60px;
+        padding-top: 45px;
+    }
+
+    .projectcontent ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        margin-inline: 0px;
+        padding-top: 20px;
+    }
+
+    .serve {
+        row-gap: 10px;
+    }
+
+    section.sectionserv {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+
+   
+
+    /* .secondimage img {
+        position: absolute;
+        top: 24px;
+        left: -77px;
+        width: 294px;
+        height: 305px;
+    } */
+
+    .secondimage img {
+        position: absolute;
+        top: 24px;
+        left: 133px;
+        width: 294px;
+        height: 305px;
+    }
+
+     /* .firstimage img {
+        position: relative;
+        width: 320px;
+        right: 100px;
+        height: 332px;
+    }  */
+
+
+    .firstimage img {
+        position: relative;
+        width: 320px;
+        height: 332px;
+        left: 109px;
+    }
+    /* .aboutimg {
+        position: relative;
+        left: 280px;
+    } */
+
+    .aboutcontent {
+        padding-top: 35px;
+    }
+     .serviceblocks {
+        width: 200px ;
+        height: 200px ;
+      
+    } 
+
+    .superdesign {
+        width: 15rem;
+    }
+
+    .offersub {
+       
+        margin: auto;
+    }
+    
+
+
+   
+   
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px){
+    .bannercontent {
+        padding-top: 90px;
+        padding-left: 115px;
+        padding-bottom: 40px;
+    }
+
+    .houseproblems {
+        display: flex;
+        justify-content: space-between;
+        margin-left:  0px;
+        margin-right: 50px;
+    }
+
+    
+
+    .offer {
+        padding-top: 69px;
+        padding-left: 0px;
+        
+    }
+
+    .projectcontent {
+        margin-left: 158px;
+        padding-top: 45px;
+    }
+    .repair {
+        border: solid;
+        border-color: darkblue;
+        width: 210px;
+        padding: 30px;
+        margin: 0px 0px 20px 0px;
+        height: 263px;
+    }
+
+    .fontarrow .fa-solid, .fas {
+        font-weight: 900;
+        color: mediumblue;
+    }
+
+
+
+    .firstimage img {
+        position: relative;
+        width: 320px;
+        height: 332px;
+        left: -23px;
+    }
+
+    .secondimage img {
+        position: absolute;
+        top: 24px;
+        left: 0px;
+        width: 294px;
+        height: 305px;
+    }
+
+    
+
+    .serviceblocks {
+        width: 200px ;
+        height: 200px ;
+      
+    } 
+    .superdesign{
+        width: 20rem;
+
+    }
+
+    .cardWidth {
+        width: 13rem;
+    }
+    
+
+  
+
+
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .bannerfeat {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 23px;
+         padding-left: 130px;
+    }
+
+    .bannercontent {
+        padding-top: 90px;
+        padding-left: 115px;
+        padding-bottom: 40px;
+    }
+
+    .houseproblems {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 235px;
+        margin-right: 50px;
+    }
+
+    .projectcontent {
+        margin-left: 221px;
+        padding-top: 45px;
+    }
+    .serviceblocks {
+        width: 229px;
+        height: 229px;
+    }
+
+    .superdesign {
+        width: 22rem;
+    }
+
+
+    .cardWidth {
+        width: 16rem;
+    }
+
+    .firstimage img {
+        position: relative;
+        width: 320px;
+        height: 332px;
+        left: 0px;
+        
+    }
+
+    .secondimage img {
+        position: absolute;
+        top: 24px;
+         left: 24px; 
+        width: 294px;
+        height: 305px;
+    }
+
+
+    
+
+    
+
+    
+    
+}
+
+.image1 ,.image2,.image3{
+    height: 230px;
+    width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
